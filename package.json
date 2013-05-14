@@ -1,0 +1,26 @@
+{
+  "author": "Andrew Sliwinski <andrewsliwinski@acm.org> (http://andrewsliwinski.com)",
+  "name": "vouch",
+  "description": "JSON schema validation ... for humans.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/thisandagain/vouch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thisandagain/vouch.git"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "JSV": "~4.0.2"
+  },
+  "devDependencies": {
+    "tap": "~0.3.1",
+    "codebux": "~0.1.2"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6"
+  }
+}

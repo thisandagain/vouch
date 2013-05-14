@@ -12,12 +12,12 @@ npm install vouch
 ```javascript
 var vouch    = require('vouch');
 
-vouch(input, schema, function (err) {
-    if (err) {
-        console.log(err);  // Human friendly errors!
-    } else {
-        // Yay! No errors.
-    }
+vouch({
+    input:  input, 
+    schema: schema
+}, function (err) {
+    if (err) return console.log(err);  // Human friendly errors!
+    // Yay! No errors.
 });
 ```
 

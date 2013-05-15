@@ -2,7 +2,7 @@
   "author": "Andrew Sliwinski <andrewsliwinski@acm.org> (http://andrewsliwinski.com)",
   "name": "vouch",
   "description": "JSON schema validation ... for humans.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "homepage": "https://github.com/thisandagain/vouch",
   "repository": {
     "type": "git",

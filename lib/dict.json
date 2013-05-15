@@ -1,4 +1,6 @@
 {
+    "type": "\"__instance__\" is not a __type__.",
     "additionalProperties": "Additional properties are not allowed.",
-    "type": "__instance__ is not a __type__."
+    "required": "\"__instance__\" is required.",
+    "optional": "\"__instance__\" is required."
 }

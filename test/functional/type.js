@@ -23,6 +23,7 @@ vouch({
 }, function (err) {
     console.dir(err);
     test('functional', function (t) {
-
+        t.type(err, 'string', 'error is a string');
+        t.end();
     });
 });

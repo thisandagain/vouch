@@ -1,6 +1,9 @@
 {
-    "type": "\"__instance__\" is not a __type__.",
     "additionalProperties": "Additional properties are not allowed.",
+    "type": "\"__instance__\" is not a __detail__.",
     "required": "\"__instance__\" is required.",
-    "optional": "\"__instance__\" is required."
+    "optional": "\"__instance__\" is required.",
+    "minimum": "\"__instance__\" is less than __detail__.",
+    "maximum": "\"__instance__\" is greater than __detail__.",
+    "pattern": "\"__instance__\" is invalid."
 }
